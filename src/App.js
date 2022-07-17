@@ -1,9 +1,14 @@
-import './App.css';
+import Header from './components/Header'
+import Game from './components/Game'
+import Footer from './components/Footer';
+
 
 export default function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      <Header />
+      <Game />
+      <Footer />
     </div>
   );
 }
